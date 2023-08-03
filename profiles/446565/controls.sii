@@ -1,6 +1,6 @@
 SiiNunit
 {
-input_config : _nameless.1eb.2d3a.2a80 {
+input_config : _nameless.214.06b2.7c00 {
  version: 24
  config_lines: 537
  config_lines[0]: "device keyboard `di8.keyboard`"
@@ -21,7 +21,7 @@ input_config : _nameless.1eb.2d3a.2a80 {
  config_lines[15]: "input j_look_lr ``"
  config_lines[16]: "constant c_lr_dz 0.100000"
  config_lines[17]: "constant c_ud_dz 0.100000"
- config_lines[18]: "constant c_steer_func 1.000000"
+ config_lines[18]: "constant c_steer_func 2.000000"
  config_lines[19]: "constant c_steer_dz 0.000000"
  config_lines[20]: "constant c_throt_dz 0.100000"
  config_lines[21]: "constant c_brake_dz 0.100000"
@@ -218,8 +218,8 @@ input_config : _nameless.1eb.2d3a.2a80 {
  config_lines[212]: "mix camup `keyboard.num9?0 | semantical.camup?0`"
  config_lines[213]: "mix camdown `keyboard.num3?0 | semantical.camdown?0`"
  config_lines[214]: "mix cammove `mouse.button_right?0`"
- config_lines[215]: "mix lookleft `semantical.lookleft?0`"
- config_lines[216]: "mix lookright `semantical.lookright?0`"
+ config_lines[215]: "mix lookleft `keyboard.larrow?0 | semantical.lookleft?0`"
+ config_lines[216]: "mix lookright `keyboard.rarrow?0 | semantical.lookright?0`"
  config_lines[217]: "mix camuilr `-mouse.rel_position.x?0 * c_msens`"
  config_lines[218]: "mix camuiud `-mouse.rel_position.y?0 * sel(c_minvert, -c_msens, c_msens)`"
  config_lines[219]: "mix camlr `-mouse.rel_position.x?0 * c_msens - semantical.camlr?0`"
@@ -241,8 +241,8 @@ input_config : _nameless.1eb.2d3a.2a80 {
  config_lines[235]: "mix looklrspd `looklrdigspd + looklranaspd`"
  config_lines[236]: "mix lookudspd `lookudanaraw * c_jrspeed`"
  config_lines[237]: "mix lookpos1 `mouse.button_middle?0 | keyboard.darrow?0 | semantical.lookpos1?0`"
- config_lines[238]: "mix lookpos2 `keyboard.num9?0 | keyboard.rarrow?0 | semantical.lookpos2?0`"
- config_lines[239]: "mix lookpos3 `keyboard.num7?0 | keyboard.larrow?0 | semantical.lookpos3?0`"
+ config_lines[238]: "mix lookpos2 `keyboard.num9?0 | semantical.lookpos2?0`"
+ config_lines[239]: "mix lookpos3 `keyboard.num7?0 | semantical.lookpos3?0`"
  config_lines[240]: "mix lookpos4 `keyboard.num6?0 | semantical.lookpos4?0`"
  config_lines[241]: "mix lookpos5 `keyboard.num4?0 | semantical.lookpos5?0`"
  config_lines[242]: "mix lookpos6 `keyboard.num8?0 | semantical.lookpos6?0`"
@@ -326,7 +326,7 @@ input_config : _nameless.1eb.2d3a.2a80 {
  config_lines[320]: "mix suspreset `semantical.suspreset?0`"
  config_lines[321]: "mix horn `keyboard.h?0 | semantical.horn?0`"
  config_lines[322]: "mix airhorn `keyboard.n?0 | semantical.airhorn?0`"
- config_lines[323]: "mix lighthorn `keyboard.j?0 | semantical.lighthorn?0`"
+ config_lines[323]: "mix lighthorn `keyboard.j?0 | keyboard.lalt?0 | semantical.lighthorn?0`"
  config_lines[324]: "mix beacon `keyboard.o?0 | semantical.beacon?0`"
  config_lines[325]: "mix motorbrake `keyboard.lctrl?0 | semantical.motorbrake?0`"
  config_lines[326]: "mix engbraketog `semantical.engbraketog?0`"
