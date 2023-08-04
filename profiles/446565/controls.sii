@@ -1,6 +1,6 @@
 SiiNunit
 {
-input_config : _nameless.224.81f0.f2a0 {
+input_config : _nameless.198.bb69.8750 {
  version: 24
  config_lines: 537
  config_lines[0]: "device keyboard `di8.keyboard`"
@@ -304,7 +304,7 @@ input_config : _nameless.224.81f0.f2a0 {
  config_lines[298]: "mix msteering `-mouse.rel_position.x?0 * c_msens`"
  config_lines[299]: "mix mpedals `-mouse.rel_position.y?0 * c_msens`"
  config_lines[300]: "mix dforward `unbound?0 | keyboard.a?0`"
- config_lines[301]: "mix dbackward `unbound?0 | keyboard.z?0`"
+ config_lines[301]: "mix dbackward `mouse.button_left?0 | keyboard.z?0`"
  config_lines[302]: "mix aforward `normalize(sel(c_jzthrottle, sel(c_jithrottle, -j_throttle?0, j_throttle?0), sel(c_jithrottle, j_throttle?1 * -0.5 + 0.5, j_throttle?-1 * 0.5 + 0.5)), c_throt_dz) + semantical.aforward?0`"
  config_lines[303]: "mix abackward `normalize(sel(c_jzbrake, sel(c_jibrake, -j_brake?0, j_brake?0), sel(c_jibrake, j_brake?1 * -0.5 + 0.5, j_brake?-1 * 0.5 + 0.5)), c_brake_dz) + semantical.abackward?0`"
  config_lines[304]: "mix forward `dforward + aforward`"
