@@ -1,5 +1,5 @@
 # Growing Economy
-(c) 2022 v1.44 by Cheva
+(c) 2023 v.1.48.5.72S by Cheva
 
 ##### Main module.
 Place this mod in the top of all. (rewrote def/economy.data, def/damage_data, def/bank.data)
@@ -27,7 +27,7 @@ The financial part is as close to real life as possible.
 - Does not work under other mods on the economy, including time control
 
 # Растущая экономика
-v1.44 от Чевы
+(c) 2023 v.1.48.5.72S от Чевы
 
 ##### Основной мод.
 Мод должен находится выше остальных. (переписал def/economy.data, def/damage_data, def/bank.data)
