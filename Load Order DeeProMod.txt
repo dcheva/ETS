@@ -1,0 +1,123 @@
+***Load Order - ETS2 v1.48.5 Map Combos (Updated 04 Nov 2023)***
+*** .Installed
+*** /Bad
+*** Not installed
+***********************************************************************************************
++Growing Eco 1.48
+.Original Loading Screen Mod (ETS2) (v1.48-1.0)
+.Fullscreen Map for ATS and ETS2 v2023.08.22
+.Scale Hack Disable (v2.0)
+.Zoom Crash Fix (N.B. Not needed when using Worlds Combined Background Map v1.1)
+.ProMods Complete Afroeurasia Background Map (v2.2) OR Worlds Combined Background Map v1.1
+.Ferry Collection for ETS2 v2023.01.24
+.Universal Fix&Localization (v1.48-3.6)
+the speed of the snow (v7.0)
+.Bourges Updated (v1.0.1)
+Bengan's Swedish Islands Map (1.48-1.01)
+.Paris Rebuild v3.3 For Promods
+Rungis Addon (v0.0 / v1.47.x)
+Project Caucasus Map Combo Fix (v1.48.5-1.0)
+Project Caucasus (v1.0a for 1.47)
+Hybrid+2
+/ROEXall-SR12.1 RC
+AZGE-SR RC (v1.48)
+AZGE add-on 1.48
+/ROEX EN city names (v1.48)
+/ROEX148.5pack1
+/ROEX148.5pack2
+/ROEX148.5pack3
+/ROEX148.5pack4
+/ROEX148.5pack5
+.El-Enclaves and Balearic Islands 0.4b (ProMods Addon) (v0.4.1b)
+ROS ENGcitynames (v1.47)
+Russian Open Spaces Map Combo Fix (v1.47-1.1) 2)
+Fix_ROS13-RM2.4.8 (v0.1)
+Kazan-Kirov_RC (v0.1)
+Moscow-Kovrov_RCv0.1
+Сегежа and Онега RC v 0.3
+Tюмeнь and Тобольск RC v 0.1
+Russian_open_spaces (v13.0)
+RusMap-def_v2.48
+RusMap Map_v2.48
+RusMap-model_v2.48
+.Portugal Rebuild (v0.1.1)
+.ets2 london enhanced 1.3.1
+.ProMods Addon - Emden (V7)
+.SFIG 0.7.2- Promods Addon
+Northern Ireland Rebuilding - Beta (v0.60)
+Mediterranean Expansion v1.3
+Latvia rebuild v1.29.3 for PM 2.66 (Filename: latvia-rebuild-v1_29.4-for-Promods-v2_66.scs)
+Itarevamp 0.9
+PE6 Hotfix + RC to PM Finnmark (v2.0, filesize: 3.697.551 bytes)
+Project E6 Map (v2.5)
+.Peyrat-le-Chateau (v1.0)
+.Sud de France (v1.9)
+Macedonia Rework Definitions (ST) (v1.5.2)
+Macedonia Rework Map (v1.5.2)
+Macedonia Rework Materials & Assets (v1.5.2)
+Bulgaria in Focus (v0.9)
+Silesia (v1.4.0)
+Poland Rebuilding - Def (v2.5.7)
+Poland Rebuilding - Map (v2.5.7)
+Poland Rebuilding - Models (v2.5.7)
+Poland Rebuilding - Assets (v2.5.7)
+Santiago de Compostela añadido (v6.0)
+Road to Africa Horn of Africa Fix (v1.48.5-1.0)
+Horn of Africa Fix (v1.48.5-1.0)
+Horn of Africa - Def/Map (v0.5 / v0.5.1)
+Horn of Africa - Assets Package (v0.5 / v0.5.1)
+Road to Africa - ProMods Middle-East RC (v1.48.5-1.0)
+Israel-Lebanon Open Borders (v1.48.5-1.1)
+.ProMods Middle-East Add-on (Def & Map Package) (v2.67)
+.ProMods Middle-East Add-on (Assets Package) (v2.67)
+.ProMods DLC Support Package (v2.67)
+.ProMods Definition Package (v2.67)
+.ProMods Map Package (v2.67)
+.ProMods Media Package (v2.67)
+.ProMods Models Package 1 (v2.67)
+.ProMods Models Package 2 (v2.67)
+.ProMods Models Package 3 (v2.67)
+.ProMods assets Package (v2.67)
+RTAF Country Code Fix (v1.0)
+Road to Africa Def/Map by TerraMaps (v1.0.1)
+Road to Africa Models by TerraMaps (v1.0.1)
+Road to Africa Models 2 by TerraMaps (v1.0.1)
+Dalian-Valencia Ferry Connection (v1.7.1)
+Road to Asia Fix (v1.48.5-1.0)
+Road to Asia by TerraMaps Def/Map (v1.7.1)
+Road to Asia Models (v1.7.1)
+Road to Asia Models 2 (v1.7.1)
+Road to Asia Assets (v1.7.1)
+VolgaMap English City Names (v1.48.5-1.0)
+VolgaMap 1.5.1
+SibirMap 2.0 Train Connection Removed (v1.48.5-1.0)
+SibirMap 2.0 Caps Fix (v1.48.5-1.0)
+SibirMap 2.6.1
+SRmap English City Names (v1.48.5-1.0)
+SRmap v.12.2
+ProMods Great Steppe (Ferry Connection) (v1.2)
+ProMods The Great Steppe (Def & Map Package) (v1.0.2)
+ProMods The Great Steppe (Assets Package) (v1.0.2)
+Java Road Revolution (JRR) Def & Map (v0.7)
+Java Road Revolution (JRR) Assets & Models 1 (v0.7)
+Java Road Revolution (JRR) Assets & Models 2 (v0.7)
+***********************************************************************************************
+Заметки:
+1) Если вам не нужна большая комбинация глобальных карт, а вместо этого небольшая комбинация карт Евразии, просто удалите все файлы, не относящиеся к Европе.
+***********************************************************************************************
+2) Измените файл manifest.sii в моде:
+а) Откройте файл мода с помощью 7-Zip или WinRar или чего-то подобного. Если файл мода заблокирован, см. здесь альтернативное решение. https://forum.scssoft.com/viewtopic.php?t=276948
+б) Редактировать manifest.sii
+в) Внесите следующее изменение:
+compatible_versions[]: "1.46.*"
+(просто поставьте # в начале):
+# compatible_versions[]: "1.46.*"
+г) Сохраните изменения
+***********************************************************************************************
+3) Помимо изменения manifest.sii (см. 2)) нужен еще один шаг:
+а) Откройте файл мода с помощью 7-Zip или WinRar или чего-то подобного.
+б) Внутри мода перейдите к "\def\ferry\connection\"
+в) Переименовать belushiaguba.calais.sii в belushiaguba.gdansk.sii
+г) Переименовать calais.belushiaguba.sii в gdansk.belushiaguba.sii.
+д) Сохраните изменения
+***********************************************************************************************
