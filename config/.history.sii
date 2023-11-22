@@ -1,7 +1,14 @@
 SiiNunit
 {
-ui::history_storage : _nameless.21a.2e1f.5be0 {
- item: 0
+ui::history_storage : _nameless.145.2868.4410 {
+ item: 7
+ item[0]: g_upshift
+ item[1]: "g_downshift_coef 0.75"
+ item[2]: "g_upshift_coef 0.25"
+ item[3]: g_downshift_coef
+ item[4]: g_upshift_coef
+ item[5]: g_traffic
+ item[6]: "g_traffic 3"
 }
 
 }
