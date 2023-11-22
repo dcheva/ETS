@@ -41,13 +41,13 @@ economy_data : economy.data.storage
 	delivery_window[1]: 250		# medium
 	delivery_window[2]: 90		# hard
 
-	delivery_window_coef[0]: 1.0	# easy 
-	delivery_window_coef[1]: 1.15	# medium  revenue coef
-	delivery_window_coef[2]: 1.4	# hard
+	delivery_window_coef[0]: 100 // 1.0	# easy 
+	delivery_window_coef[1]: 115 // 1.15	# medium revenue coef
+	delivery_window_coef[2]: 140 // 1.4	# hard
 
-	hurry_up_timer: 114		# how long the hurry up music will play (in game minutes)
+	hurry_up_timer: 60 // 114		# how long the hurry up music will play (in game minutes)
 
-	no_cargo_prob:	0.1		# 10% prob. of empty cargo slot
+	no_cargo_prob:	0 // 0.1		# 10% prob. of empty cargo slot
 	cargo_validity_min: 180		# 3 hours
 	cargo_validity_max: 1800	# 30 hours
 
@@ -73,8 +73,8 @@ economy_data : economy.data.storage
 	driver_max_cargo_damage: 6.0		# in %, decrease with skill
 	driver_maintenance_cost: (1.8, 3.0) 	# maintenance + insurance, base range in E/km
 	minimal_driver_salary:	350		# fixed part of driver's pay
-	driver_revenue_coef_per_km: 0.67		# Revenue coefficient used during quick job and drivers jobs.
-	driver_cargo_market_revenue_coef_per_km: 0.70 # Revenue coefficient used during cargo market jobs for drivers.
+	driver_revenue_coef_per_km: 67 // 0.67		# Revenue coefficient used during quick job and drivers jobs.
+	driver_cargo_market_revenue_coef_per_km: 70 // 0.70 # Revenue coefficient used during cargo market jobs for drivers.
 
 	driver_hire_cost: 1500		# Euro
 

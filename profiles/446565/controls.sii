@@ -1,7 +1,7 @@
 SiiNunit
 {
-input_config : _nameless.198.bb69.8750 {
- version: 24
+input_config : _nameless.224.d1d6.26e0 {
+ version: 25
  config_lines: 537
  config_lines[0]: "device keyboard `di8.keyboard`"
  config_lines[1]: "device mouse `fusion.mouse`"
@@ -427,7 +427,7 @@ input_config : _nameless.198.bb69.8750 {
  config_lines[421]: "mix camwalk_left `keyboard.a?0 | semantical.camwalk_left?0`"
  config_lines[422]: "mix camwalk_run `keyboard.lshift?0 | semantical.camwalk_run?0`"
  config_lines[423]: "mix camwalk_jump `keyboard.space?0 | semantical.camwalk_jump?0`"
- config_lines[424]: "mix camwalk_crou `keyboard.lctrl?0 | semantical.camwalk_crou?0`"
+ config_lines[424]: "mix camwalk_crou `keyboard.lctrl?0 | ui_joy.camwalk_crou?0 | semantical.camwalk_crou?0`"
  config_lines[425]: "mix camwalk_lr `-semantical.camwalk_lr?0`"
  config_lines[426]: "mix camwalk_ud `-semantical.camwalk_ud?0`"
  config_lines[427]: "mix camwalk_lrs `looklranaraw * c_jrspeed`"
