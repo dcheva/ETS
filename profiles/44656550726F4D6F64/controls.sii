@@ -1,6 +1,6 @@
 SiiNunit
 {
-input_config : _nameless.2ab.bfe8.8bf0 {
+input_config : _nameless.147.671c.d420 {
  version: 25
  config_lines: 537
  config_lines[0]: "device keyboard `di8.keyboard`"
