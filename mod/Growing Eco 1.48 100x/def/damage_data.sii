@@ -1,4 +1,7 @@
 SiiNunit
+### (c) Cheva 2017-2023 
+### v.1.48
+### //xx this values are original
 {
 vehicle_damage_data : .damage_data
 {
