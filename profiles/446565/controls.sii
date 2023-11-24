@@ -1,7 +1,7 @@
 SiiNunit
 {
-input_config : _nameless.198.bb69.8750 {
- version: 24
+input_config : _nameless.2ab.bfe8.8bf0 {
+ version: 25
  config_lines: 537
  config_lines[0]: "device keyboard `di8.keyboard`"
  config_lines[1]: "device mouse `fusion.mouse`"
@@ -37,8 +37,8 @@ input_config : _nameless.198.bb69.8750 {
  config_lines[31]: "constant c_jisteer 0.000000"
  config_lines[32]: "constant c_jilookud 0.000000"
  config_lines[33]: "constant c_jilooklr 0.000000"
- config_lines[34]: "constant c_rsteersens 0.122500"
- config_lines[35]: "constant c_asteersens 0.735000"
+ config_lines[34]: "constant c_rsteersens 0.150000"
+ config_lines[35]: "constant c_asteersens 0.900000"
  config_lines[36]: "constant c_mousesteer 1.000000"
  config_lines[37]: "constant c_mousepedal 0.000000"
  config_lines[38]: "constant c_mped_dz 0.200000"
@@ -427,7 +427,7 @@ input_config : _nameless.198.bb69.8750 {
  config_lines[421]: "mix camwalk_left `keyboard.a?0 | semantical.camwalk_left?0`"
  config_lines[422]: "mix camwalk_run `keyboard.lshift?0 | semantical.camwalk_run?0`"
  config_lines[423]: "mix camwalk_jump `keyboard.space?0 | semantical.camwalk_jump?0`"
- config_lines[424]: "mix camwalk_crou `keyboard.lctrl?0 | semantical.camwalk_crou?0`"
+ config_lines[424]: "mix camwalk_crou `keyboard.lctrl?0 | ui_joy.camwalk_crou?0 | semantical.camwalk_crou?0`"
  config_lines[425]: "mix camwalk_lr `-semantical.camwalk_lr?0`"
  config_lines[426]: "mix camwalk_ud `-semantical.camwalk_ud?0`"
  config_lines[427]: "mix camwalk_lrs `looklranaraw * c_jrspeed`"
