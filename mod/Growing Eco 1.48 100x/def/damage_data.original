@@ -4,10 +4,10 @@ vehicle_damage_data : .damage_data
 {
 	# damage dealt to truck and trailer
 
-	truck_damage_coef:	0.0014  	# truck damage coef per hit, impact speed squared modified by weights
-	trailer_damage_coef:	0.0014
-	dragged_trailer_damage_coef: 0.00004	# damage coef for dragging improperly connected trailer
-	truck_to_trailer_dmg: 	0.4		# how much damage is transferred from truck to trailer (and vice versa)
+	truck_damage_coef:	0.0007  	# truck damage coef per hit, impact speed squared modified by weights
+	trailer_damage_coef:	0.0007
+	dragged_trailer_damage_coef: 0.00002	# damage coef for dragging improperly connected trailer
+	truck_to_trailer_dmg: 	0.2		# how much damage is transferred from truck to trailer (and vice versa)
 
 	side_damage_factor:	6.0
 	roof_damage_factor:	11.0
@@ -22,10 +22,10 @@ vehicle_damage_data : .damage_data
 
 	# wear per km of drive
 
-	cabin_wear:		2e-6	# also used for trailer body
-	chassis_wear:		2e-6
-	engine_wear:		2e-5
-	transmission_wear:	2e-5
+	cabin_wear:		0.0	# also used for trailer body
+	chassis_wear:		0.0
+	engine_wear:		2e-6
+	transmission_wear:	2e-6
 	wheel_wear:		2e-5
 
 	# damage distribution to trailer and cargo
