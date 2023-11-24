@@ -1,6 +1,6 @@
 SiiNunit
 {
-input_config : _nameless.147.671c.d420 {
+input_config : _nameless.18e.9960.91f0 {
  version: 25
  config_lines: 537
  config_lines[0]: "device keyboard `di8.keyboard`"
@@ -507,7 +507,7 @@ input_config : _nameless.147.671c.d420 {
  config_lines[501]: "mix advpage4 `keyboard.f9?0 | semantical.advpage4?0`"
  config_lines[502]: "mix advpagen `keyboard.num0?0 | semantical.advpagen?0`"
  config_lines[503]: "mix advpagep `semantical.advpagep?0`"
- config_lines[504]: "mix advmouse `keyboard.f1?0 | semantical.advmouse?0`"
+ config_lines[504]: "mix advmouse `keyboard.f1?0 | keyboard.prtscr?0 | semantical.advmouse?0`"
  config_lines[505]: "mix advetamode `semantical.advetamode?0`"
  config_lines[506]: "mix gar_man `keyboard.g?0 | semantical.gar_man?0`"
  config_lines[507]: "mix advzoomin `semantical.advzoomin?0`"

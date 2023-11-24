@@ -17,38 +17,60 @@ xp_level_data : economy.data.xp_levels
 	level_names[]: "100|@@lvl_name9@@"
 
 #
-#	experience points to the next level
+#	New experience points to the next level
+#       See https://docs.google.com/spreadsheets/d/1Cx2an1kIgf9OqR0nSCbXMipF83AasTJT_mpbUGc6mJ4
 #
-	level_xp[0]: 200
-	level_xp[1]: 500
-	level_xp[2]: 700
-	level_xp[3]: 900
-	level_xp[4]: 1000
-	level_xp[5]: 1100
-	level_xp[6]: 1300
-	level_xp[7]: 1600
-	level_xp[8]: 1700	
-	level_xp[9]: 2100	
-	level_xp[10]: 2300	
-	level_xp[11]: 2600	
-	level_xp[12]: 2700
-	level_xp[13]: 2900
-	level_xp[14]: 3000
-	level_xp[15]: 3100
-	level_xp[16]: 3400
-	level_xp[17]: 3700	
-	level_xp[18]: 4000	
-	level_xp[19]: 4300	
-	level_xp[20]: 4600	
-	level_xp[21]: 4700
-	level_xp[22]: 4900
-	level_xp[23]: 5200
-	level_xp[24]: 5700
-	level_xp[25]: 5900
-	level_xp[26]: 6000	
-	level_xp[27]: 6200	
-	level_xp[28]: 6600	
-	level_xp[29]: 6800	
+	level_xp[0]: 500
+	level_xp[1]: 2500
+	level_xp[2]: 3000
+	level_xp[3]: 3600
+	level_xp[4]: 4320
+	level_xp[5]: 5184
+	level_xp[6]: 6221
+	level_xp[7]: 7465
+	level_xp[8]: 8958
+	level_xp[9]: 10750
+	level_xp[10]: 12899
+	level_xp[11]: 15479
+	level_xp[12]: 18575
+	level_xp[13]: 22290
+	level_xp[14]: 26748
+	level_xp[15]: 32098
+	level_xp[16]: 38518
+	level_xp[17]: 46221
+	level_xp[18]: 55465
+	level_xp[19]: 60087
+	level_xp[20]: 62398
+	level_xp[21]: 63554
+	level_xp[22]: 64132
+	level_xp[23]: 64421
+	level_xp[24]: 64565
+	level_xp[25]: 64637
+	level_xp[26]: 64673
+	level_xp[27]: 64691
+	level_xp[28]: 64700
+	level_xp[29]: 64705
+	level_xp[30]: 64707
+	level_xp[31]: 64708
+	level_xp[32]: 64709
+	level_xp[33]: 64709
+	level_xp[34]: 64709
+	level_xp[35]: 64709
+	level_xp[36]: 64709
+	level_xp[37]: 64709
+	level_xp[38]: 64709
+	level_xp[39]: 64709
+	level_xp[40]: 64709
+	level_xp[41]: 64709
+	level_xp[42]: 64709
+	level_xp[43]: 64709
+	level_xp[44]: 64709
+	level_xp[45]: 64709
+	level_xp[46]: 64709
+	level_xp[47]: 64709
+	level_xp[48]: 64709
+	level_xp[49]: 64709
+	level_xp[50]: 64709
 
 	driver_xp_scale: 2.0
 }
